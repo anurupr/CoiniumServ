@@ -1,0 +1,34 @@
+{
+    "enabled": true,
+    "coin": "litecoin.json",
+    "daemon": {
+        "port": 9666,
+        "username": "lc_als_user",
+        "password": "dellgenx"
+    },
+    "wallet": {
+        "address": "LeG8jdWyPxtDMdnEdDDtZiVDn2XMyZeEAK"
+    },
+    "rewards": [
+        {
+            "LfKfVvcqfgs589ZFXBvQ3JvkqVW133qXPQ": 1
+        }
+    ],
+    "payments": {
+	"enabled": true,
+	"interval": 60,
+	"minimum": 0.01
+    }, 
+    "stratum": {
+        "port": 3333
+    },
+    "storage": {
+        "hybrid": {
+          "mysql": {
+            "database": "coins",
+            "username": "root",
+            "password": "dellgenx" 
+          }
+        }
+    }
+}
